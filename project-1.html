@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vargas Roofing | NYC Roofing Contractors</title>
+  <meta name="description" content="Vargas Roofing provides residential and commercial roofing services across NYC. Free estimates, reliable service, and quality workmanship.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+
+  <div class="top-bar">
+    <span>📍 Serving PA & Surrounding Areas</span>
+    <a href="tel:717-5420-0708">📞 717-5420-0708</a>
+  </div>
+
+  <div class="logo">
+    <img src="IMG_8130-1.PNG" alt="Vargas Roofing Logo">
+  </div>
+
+  <nav class="main-nav">
+    <ul>
+
+      <li><a href="#contact" class="cta">Free Quote</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Trusted Roofing Contractors in PA</h1>
+    <p>Residential & Commercial Roofing • Licensed & Insured • Free Estimates</p>
+    <a href="#contact" class="hero-btn">Request a Free Estimate</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <h2>Our Roofing Services</h2>
+
+  <div class="services-grid">
+    <div class="service-card">Roof Installation</div>
+    <div class="service-card">Roof Repairs</div>
+    <div class="service-card">Roof Replacement</div>
+    <div class="service-card">Flat Roofing</div>
+    <div class="service-card">Shingle Roofing</div>
+    <div class="service-card">Emergency Roofing</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section gray">
+  <h2>Recent Projects</h2>
+
+  <div class="projects-grid">
+    <img src="IMG_0701.jpg" alt="Roofing project PA">
+    <img src="IMG_0238.PNG" alt="Commercial roofing PA">
+    <img src="IMG_0892 copy.jpg" alt="Residential roofing PA">
+    <img src="IMG_0703.jpg" alt="">
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="section">
+  <h2>What Our Customers Say</h2>
+
+  <div class="reviews">
+    <blockquote>⭐️⭐️⭐️⭐️⭐️ “Professional, fast, and honest. Highly recommend!”</blockquote>
+    <blockquote>⭐️⭐️⭐️⭐️⭐️ “Great pricing and excellent workmanship.”</blockquote>
+    <blockquote>⭐️⭐️⭐️⭐️⭐️ “Best roofing company we’ve worked with in PA.”</blockquote>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section gray">
+  <h2>About Vargas Roofing</h2>
+  <p>
+    Vargas Roofing is a family-owned roofing company proudly serving Pennsylvania.
+    We specialize in high-quality roofing solutions for residential and commercial properties.
+    Our mission is to deliver reliable service, honest pricing, and durable results.
+  </p>
+</section>
+
+
+
+<!-- FOOTER -->
+<footer class="footer"> 
+  <p>© 2026 Vargas Roofing. All Rights Reserved.</p>
+  <p>Licensed & Insured • Serving PA</p>
+</footer>
+<style>
+    body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+/* HEADER */
+.site-header {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1000;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.top-bar {
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* LOGO */
+.logo {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo img {
+  max-width: 500px;
+}
+
+/* NAV */
+.main-nav ul {
+  list-style: none;
+  display: inline-flex;
+  justify-content: center;
+  gap: 36px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #222;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.main-nav a:hover {
+  color: blue;
+}
+
+.cta {
+  border: 2px solid blue;
+  padding: 10px 18px;
+  border-radius: 4px;
+  color: blue;
+}
+
+/* HERO */
+.hero {
+  background: url("roofing-hero.jpg") center/cover no-repeat;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+}
+
+.hero-btn {
+  background: blue;
+  color: white;
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section.gray {
+  background: #f7f7f7;
+}
+
+/* SERVICES */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.service-card {
+  border: 1px solid #ddd;
+  padding: 30px;
+  font-weight: bold;
+}
+
+/* PROJECTS */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 15px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.projects-grid img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* REVIEWS */
+.reviews blockquote {
+  max-width: 700px;
+  margin: 20px auto;
+  font-style: italic;
+}
+
+/* CONTACT */
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  background: blue;
+  color: white;
+  border: none;
+  padding: 14px;
+}
+
+/* FOOTER */
+.footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .main-nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+</style>
+
+</body>
+</html>
